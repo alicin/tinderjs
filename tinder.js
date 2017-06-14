@@ -29,8 +29,9 @@ function TinderClient() {
     };
     
     var headers = {
-        'User-Agent' : 'Tinder Android Version 2.2.3',
-        'os_version' : '16'
+        'User-Agent' : 'Tinder Android Version 6.5.1',
+        'platform': 'android',
+        'os_version' : '23'
     };
   
     if (xAuthToken) {
